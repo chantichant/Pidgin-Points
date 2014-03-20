@@ -20,4 +20,4 @@ class MyHTMLParser(HTMLParser):
         chat_check(data)
 
 parser=MyHTMLParser()
-parser.feed('<html><head>kbnoodles: -2 to poop</head><p>poop: +3 to kbnoodles</p></html>')
+parser.feed('<font color="#16569E"><font size="2">(12:52:36 PM)</font> <b>n00dles:</b></font> +2 to beans  <br/><font color="#16569E"><font size="2">(12:52:46 PM)</font> <b>beans:</b></font> +100 to n00dles  <br/>')
